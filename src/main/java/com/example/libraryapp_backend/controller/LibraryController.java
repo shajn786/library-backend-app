@@ -30,4 +30,10 @@ public class LibraryController {
     {
         return "book entry" ;
     }
+
+    @PostMapping("/booksearch")
+    public String BookSearch()
+    {
+        return "book search" ;
+    }
 }
