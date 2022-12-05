@@ -36,4 +36,10 @@ public class LibraryController {
     {
         return "book search";
     }
+
+    @PostMapping("/bookedit")
+    public String BookEdit()
+    {
+        return "book edit";
+    }
 }
