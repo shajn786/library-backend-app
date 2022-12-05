@@ -24,4 +24,10 @@ public class LibraryController {
     {
         return "user registration";
     }
+
+    @PostMapping("/bookenrty")
+    public String BokkEntry()
+    {
+        return "book entry" ;
+    }
 }
