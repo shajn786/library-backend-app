@@ -55,4 +55,10 @@ public class LibraryController {
     {
         return "book view all";
     }
+
+    @PostMapping("/bookdelete")
+    public String BookDelete()
+    {
+        return "book delete";
+    }
 }
