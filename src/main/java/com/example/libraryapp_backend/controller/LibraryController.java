@@ -26,7 +26,7 @@ public class LibraryController {
     }
 
     @PostMapping("/bookenrty")
-    public String BokkEntry()
+    public String BookEntry()
     {
         return "book entry" ;
     }
